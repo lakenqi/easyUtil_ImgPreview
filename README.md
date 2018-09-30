@@ -13,11 +13,11 @@
 			<li>
 				以如下方法初始化即可：<br/>
 				&emsp;&emsp;easy_Calendar.init({<br/>
-				&emsp;&emsp;&emsp;&emsp;main_id : ""必填项，显示图片的容器及拖拽区域id ,如只写这一项，则启用拖拽功能 <br/>
-				&emsp;&emsp;&emsp;&emsp;input_id ：""选填,使用input文件表单标签的id, 如填写这一项，则启用input表单上传功能<br/>
-				&emsp;&emsp;&emsp;&emsp;multiple ：true,选填, 预览图片是否累加显示，默认true, 如不需要累加，设为false，则每次只显示当前操作图片<br/>
-				&emsp;&emsp;&emsp;&emsp;two_methods ：false,选填, 是否启用拖拽和input双功能预览， 默认只启动一种，如果填写true,则两种方式都启动，且input_id为必填项<br/>
-				&emsp;&emsp;&emsp;&emsp;fn ：选填,图片预览后回调 函数，默认无，可自定义，传入参数为files，包含最近一次操作的纯图片文件数组。<br/>
+				&emsp;&emsp;&emsp;&emsp;main_id : ""，必填项，显示图片的容器及拖拽区域id，如只写这一项，则启用拖拽功能 <br/>
+				&emsp;&emsp;&emsp;&emsp;input_id ：""，选填，使用input文件表单标签的id，如填写这一项，则启用input表单上传功能<br/>
+				&emsp;&emsp;&emsp;&emsp;multiple ：true，选填，预览图片是否累加显示，默认true, 如不需要累加，设为false，则每次只显示当前操作图片<br/>
+				&emsp;&emsp;&emsp;&emsp;two_methods ：false,选填，是否启用拖拽和input双功能预览， 默认只启动一种，如果填写true，则两种方式都启动，且input_id为必填项<br/>
+				&emsp;&emsp;&emsp;&emsp;fn ：选填,图片预览后回调函数，默认无，可自定义，传入参数为files，包含最近一次操作的纯图片文件数组。<br/>
 				&emsp;&emsp;})<br/>
 			</li>
 		</ul>
