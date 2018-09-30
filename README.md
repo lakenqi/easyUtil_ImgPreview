@@ -12,7 +12,7 @@
 		<ul>
 			<li>
 				以如下方法初始化即可：<br/>
-				&emsp;&emsp;easy_Calendar.init({
+				&emsp;&emsp;easy_Calendar.init({<br/>
 				&emsp;&emsp;&emsp;&emsp;main_id : ""必填项，显示图片的容器及拖拽区域id ,如只写这一项，则启用拖拽功能 <br/>
 				&emsp;&emsp;&emsp;&emsp;input_id ：""选填,使用input文件表单标签的id, 如填写这一项，则启用input表单上传功能<br/>
 				&emsp;&emsp;&emsp;&emsp;multiple ：true,选填, 预览图片是否累加显示，默认true, 如不需要累加，设为false，则每次只显示当前操作图片<br/>
